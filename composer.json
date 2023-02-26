@@ -1,0 +1,19 @@
+{
+    "name": "ganeshkandu/lara",
+    "type": "library",
+    "require": {
+        "laravel/framework": "9.0.0"
+    },
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Ganesh Kandu",
+            "email": "kanduganesh@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"ganeshkandu\\lara\\": "src/"}
+    }
+}
