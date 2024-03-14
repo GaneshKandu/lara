@@ -2,7 +2,7 @@
     "name": "ganeshkandu/lara",
     "type": "library",
     "require": {
-        "laravel/framework": "^8.40"
+        "laravel/framework": "^8.37|^9.0|^10.0|^11.0"
     },
     "license": "GPL-3.0",
     "authors": [
