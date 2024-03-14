@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ganeshkandu\\lara\\ServiceProvider"
+                "ganeshkandu\\lara\\LaraServiceProvider"
             ]
         }
     }
