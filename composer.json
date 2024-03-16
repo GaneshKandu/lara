@@ -14,7 +14,9 @@
     ],
     "minimum-stability": "stable",
     "autoload": {
-        "psr-4": {"ganeshkandu\\lara\\": "src/"}
+        "psr-4": {
+            "ganeshkandu\\lara\\": "src/"
+        }
     },
     "extra": {
         "laravel": {
