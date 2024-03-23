@@ -26,6 +26,7 @@ class LaraServiceProvider extends ServiceProvider{
 	 */
 	public function boot()
 	{
+		$this->registerCommands();
 		$this->registerMigrations();
 		$this->registerRoutes();
 		$this->registerMiddleware();
@@ -96,6 +97,15 @@ class LaraServiceProvider extends ServiceProvider{
     {
         if ($this->app->runningInConsole()){
             $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+        }
+    }
+	
+	protected function registerCommands()
+    {
+        if ($this->app->runningInConsole()) {
+            $this->commands([
+                Console\TestCommand::class,
+            ]);
         }
     }
 }
