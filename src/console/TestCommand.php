@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace ganeshkandu\lara\Console;
 
 use Illuminate\Console\Command;
 
